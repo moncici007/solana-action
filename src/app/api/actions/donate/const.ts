@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 export const DEFAULT_SOL_ADDRESS: PublicKey = new PublicKey(
-  process.env.RECIPIENT ?? "G577rTpdVySAcWh6faqD3hj4RvnmKcp8f6hm58kwdjcG" // donate wallet
+  process.env.RECIPIENT ?? "C4wMNh2tBXgrEGBipvVWousRg8UfdVLN5mcd6HjbZiHf" // donate wallet
 );
 
 export const DEFAULT_SOL_AMOUNT: number = process.env.DEFAULTAMOUNT
